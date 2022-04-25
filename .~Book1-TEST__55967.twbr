@@ -1,0 +1,1164 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0325.1233                               -->
+<workbook original-version='18.1' source-build='2021.4.5 (20214.22.0325.1233)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Union (phone-data)' inline='true' name='federated.0wv06oz0xhk9gv16ocqjm0sqkis7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='phone-data' name='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/bretttully/Desktop/Brett Tully/School/Bellarmine University/Management Science/Exams:Projects/Final Exam Project-20220412/Management_finalp/phone-data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='Union' type='union'>
+          <columns header='yes'>
+            <column datatype='string' name='vru+line' />
+            <column datatype='integer' name='call_id' />
+            <column datatype='integer' name='customer_id' />
+            <column datatype='integer' name='priority' />
+            <column datatype='string' name='type' />
+            <column datatype='date' name='date' />
+            <column datatype='datetime' name='vru_entry' />
+            <column datatype='datetime' name='vru_exit' />
+            <column datatype='integer' name='vru_time' />
+            <column datatype='datetime' name='q_start' />
+            <column datatype='datetime' name='q_exit' />
+            <column datatype='integer' name='q_time' />
+            <column datatype='string' name='outcome' />
+            <column datatype='datetime' name='ser_start' />
+            <column datatype='datetime' name='ser_exit' />
+            <column datatype='integer' name='ser_time' />
+            <column datatype='string' name='server' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='april' table='[april$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='august' table='[august$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='december' table='[december$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='february' table='[february$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='january' table='[january$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='july' table='[july$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='june' table='[june$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='march' table='[march$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='may' table='[may$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='november' table='[november$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='october' table='[october$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='september' table='[september$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='Union' type='union'>
+          <columns header='yes'>
+            <column datatype='string' name='vru+line' />
+            <column datatype='integer' name='call_id' />
+            <column datatype='integer' name='customer_id' />
+            <column datatype='integer' name='priority' />
+            <column datatype='string' name='type' />
+            <column datatype='date' name='date' />
+            <column datatype='datetime' name='vru_entry' />
+            <column datatype='datetime' name='vru_exit' />
+            <column datatype='integer' name='vru_time' />
+            <column datatype='datetime' name='q_start' />
+            <column datatype='datetime' name='q_exit' />
+            <column datatype='integer' name='q_time' />
+            <column datatype='string' name='outcome' />
+            <column datatype='datetime' name='ser_start' />
+            <column datatype='datetime' name='ser_exit' />
+            <column datatype='integer' name='ser_time' />
+            <column datatype='string' name='server' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='april' table='[april$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='august' table='[august$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='december' table='[december$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='february' table='[february$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='january' table='[january$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='july' table='[july$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='june' table='[june$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='march' table='[march$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='may' table='[may$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='november' table='[november$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='october' table='[october$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='september' table='[september$]' type='table'>
+            <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+              <column datatype='string' name='vru+line' ordinal='0' />
+              <column datatype='integer' name='call_id' ordinal='1' />
+              <column datatype='integer' name='customer_id' ordinal='2' />
+              <column datatype='integer' name='priority' ordinal='3' />
+              <column datatype='string' name='type' ordinal='4' />
+              <column datatype='date' name='date' ordinal='5' />
+              <column datatype='datetime' name='vru_entry' ordinal='6' />
+              <column datatype='datetime' name='vru_exit' ordinal='7' />
+              <column datatype='integer' name='vru_time' ordinal='8' />
+              <column datatype='datetime' name='q_start' ordinal='9' />
+              <column datatype='datetime' name='q_exit' ordinal='10' />
+              <column datatype='integer' name='q_time' ordinal='11' />
+              <column datatype='string' name='outcome' ordinal='12' />
+              <column datatype='datetime' name='ser_start' ordinal='13' />
+              <column datatype='datetime' name='ser_exit' ordinal='14' />
+              <column datatype='integer' name='ser_time' ordinal='15' />
+              <column datatype='string' name='server' ordinal='16' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Union]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vru+line</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[vru+line]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>vru+line</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>call_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[call_id]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>call_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>customer_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[customer_id]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>customer_id</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>priority</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[priority]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>priority</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vru_entry</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[vru_entry]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>vru_entry</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vru_exit</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[vru_exit]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>vru_exit</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vru_time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[vru_time]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>vru_time</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q_start</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[q_start]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>q_start</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q_exit</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[q_exit]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>q_exit</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>q_time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[q_time]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>q_time</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>outcome</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[outcome]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>outcome</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ser_start</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[ser_start]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>ser_start</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ser_exit</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[ser_exit]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>ser_exit</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ser_time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ser_time]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>ser_time</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>server</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[server]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>server</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sheet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sheet]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>Sheet</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_87D4D9CA07A14224B50B920C93692AA6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Union' datatype='table' name='[__tableau_internal_object_id__].[_87D4D9CA07A14224B50B920C93692AA6]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Union' id='_87D4D9CA07A14224B50B920C93692AA6'>
+            <properties context=''>
+              <relation all='true' name='Union' type='union'>
+                <columns header='yes'>
+                  <column datatype='string' name='vru+line' />
+                  <column datatype='integer' name='call_id' />
+                  <column datatype='integer' name='customer_id' />
+                  <column datatype='integer' name='priority' />
+                  <column datatype='string' name='type' />
+                  <column datatype='date' name='date' />
+                  <column datatype='datetime' name='vru_entry' />
+                  <column datatype='datetime' name='vru_exit' />
+                  <column datatype='integer' name='vru_time' />
+                  <column datatype='datetime' name='q_start' />
+                  <column datatype='datetime' name='q_exit' />
+                  <column datatype='integer' name='q_time' />
+                  <column datatype='string' name='outcome' />
+                  <column datatype='datetime' name='ser_start' />
+                  <column datatype='datetime' name='ser_exit' />
+                  <column datatype='integer' name='ser_time' />
+                  <column datatype='string' name='server' />
+                  <column datatype='string' name='Sheet' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='april' table='[april$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='august' table='[august$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='december' table='[december$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='february' table='[february$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='january' table='[january$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='july' table='[july$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='june' table='[june$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='march' table='[march$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='may' table='[may$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='november' table='[november$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='october' table='[october$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.15p2l3h0u3eb3o1323wxj0x6ypcp' name='september' table='[september$]' type='table'>
+                  <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                    <column datatype='string' name='vru+line' ordinal='0' />
+                    <column datatype='integer' name='call_id' ordinal='1' />
+                    <column datatype='integer' name='customer_id' ordinal='2' />
+                    <column datatype='integer' name='priority' ordinal='3' />
+                    <column datatype='string' name='type' ordinal='4' />
+                    <column datatype='date' name='date' ordinal='5' />
+                    <column datatype='datetime' name='vru_entry' ordinal='6' />
+                    <column datatype='datetime' name='vru_exit' ordinal='7' />
+                    <column datatype='integer' name='vru_time' ordinal='8' />
+                    <column datatype='datetime' name='q_start' ordinal='9' />
+                    <column datatype='datetime' name='q_exit' ordinal='10' />
+                    <column datatype='integer' name='q_time' ordinal='11' />
+                    <column datatype='string' name='outcome' ordinal='12' />
+                    <column datatype='datetime' name='ser_start' ordinal='13' />
+                    <column datatype='datetime' name='ser_exit' ordinal='14' />
+                    <column datatype='integer' name='ser_time' ordinal='15' />
+                    <column datatype='string' name='server' ordinal='16' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{964397CE-6CEE-4556-A102-236434BBC20E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E0EDAD49-60FA-4846-8023-66318B378955}' />
+    </window>
+  </windows>
+</workbook>
