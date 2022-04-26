@@ -2990,8 +2990,8 @@ David started in August</run>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='19' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='21' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='25375' id='16' mode='checkdropdown' name='Sheet 1' param='[federated.0wv06oz0xhk9gv16ocqjm0sqkis7].[wd:date:ok]' type-v2='filter' w='16000' x='83200' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3066,7 +3066,7 @@ David started in August</run>
     </dashboard>
   </dashboards>
   <windows source-height='51'>
-    <window class='worksheet' maximized='true' name='Sheet 1'>
+    <window class='worksheet' name='Sheet 1'>
       <cards>
         <edge name='left'>
           <strip size='288'>
@@ -3118,7 +3118,7 @@ David started in August</run>
       </viewpoint>
       <simple-id uuid='{E0EDAD49-60FA-4846-8023-66318B378955}' />
     </window>
-    <window class='worksheet' name='Sheet 1 (2)'>
+    <window class='worksheet' maximized='true' name='Sheet 1 (2)'>
       <cards>
         <edge name='left'>
           <strip size='288'>
